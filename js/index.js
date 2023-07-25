@@ -84,25 +84,25 @@ d3.csv("data/car_prices.csv").then(function (data) {
         switch (this.value) {
             case 'fuelType':
                 document.getElementById('selectPills').innerHTML = `
-                <div><span class="badge rounded-pill text-dark" style="background-color: ${colorOne};">Gas</span></div>
+                <div><span class="badge rounded-pill" style="background-color: ${colorOne};">Gas</span></div>
                 <div><span class="badge rounded-pill" style="background-color: ${colorTwo};">Diesel</span></div>
                 `;
                 break;
             case 'aspiration':
                 document.getElementById('selectPills').innerHTML = `
-                <div><span class="badge rounded-pill text-dark" style="background-color: ${colorOne};">Natural</span></div>
+                <div><span class="badge rounded-pill" style="background-color: ${colorOne};">Natural</span></div>
                 <div><span class="badge rounded-pill" style="background-color: ${colorTwo};">Turbo</span></div>
                 `;
                 break;
             case 'doorNumber':
                 document.getElementById('selectPills').innerHTML = `
-                <div><span class="badge rounded-pill text-dark" style="background-color: ${colorOne};">Two</span></div>
+                <div><span class="badge rounded-pill" style="background-color: ${colorOne};">Two</span></div>
                 <div><span class="badge rounded-pill" style="background-color: ${colorTwo};">Four</span></div>
                 `;
                 break;
             case 'bodyStyle':
                 document.getElementById('selectPills').innerHTML = `
-                <div><span class="badge rounded-pill text-dark" style="background-color: ${colorOne};">Convertible</span></div>
+                <div><span class="badge rounded-pill" style="background-color: ${colorOne};">Convertible</span></div>
                 <div><span class="badge rounded-pill" style="background-color: ${colorTwo};">Hatchback</span></div>
                 <div><span class="badge rounded-pill" style="background-color: ${colorThree};">Sedan</span></div>
                 <div><span class="badge rounded-pill text-dark" style="background-color: ${colorFour};">Wagon</span></div>
@@ -111,7 +111,7 @@ d3.csv("data/car_prices.csv").then(function (data) {
                 break;
             case 'engineLocation':
                 document.getElementById('selectPills').innerHTML = `
-                <div><span class="badge rounded-pill text-dark" style="background-color: ${colorOne};">Front</span></div>
+                <div><span class="badge rounded-pill" style="background-color: ${colorOne};">Front</span></div>
                 <div><span class="badge rounded-pill" style="background-color: ${colorTwo};">Rear</span></div>
                 `;
                 break;
