@@ -3,11 +3,11 @@ var dimensionsTab = new bootstrap.Tab(document.querySelector('#dimensions'))
 var engineTab = new bootstrap.Tab(document.querySelector('#engine'))
 
 // Chart dot colors
-colorOne = "#ffc107";
-colorTwo = "#a56eff";
-colorThree = "#fa4d56";
+colorOne = "#012749";
+colorTwo = "#fa4d56";
+colorThree = "#a56eff";
 colorFour = "#3ddbd9";
-colorFive = "#012749";
+colorFive = "#ffc107";
 
 const fuelTypeColor = d3.scaleOrdinal()
     .domain(["gas", "diesel"])
