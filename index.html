@@ -31,7 +31,7 @@
         This interactive visualization provides an interface to observe the correlation between different car characteristics and it's sale price.
       </p>
       <p>
-        The graphs are grouped by 3 characteristic <b>MPG, Physical Dimensions and Engine specification</b>. The visualization also allows for
+        The graphs are grouped by 3 characteristic <b>MPG(Miles per Gallon), Physical Dimensions(Length,Height and Wheel base) and Engine specification(Horse Power and Size)</b>. The visualization also allows for
         color-coding of the charts by non-numeric Car characteristic- Body style.
       </p>
       <b>How to use this visualization</b>
@@ -62,7 +62,7 @@
             role="tab" aria-controls="list-engine">Engine</a>
         </div>
         <div class="mt-5">
-          <h6>Color data point by Body style</h6>
+          <h6>Data points colored by Body style</h6>
           <select class="form-select" id="colorSelect">
             <option value="bodyStyle">Body style</option>
           </select>
@@ -86,13 +86,13 @@
             <div class="row">
               <div class="col">
                 <div class="d-flex justify-content-center">
-                  <h4>City MPG</h4>
+                  <h4>MPG in City</h4>
                 </div>
                 <div id="chart-mpg1"></div>
               </div>
               <div class="col">
                 <div class="d-flex justify-content-center">
-                  <h4>Highway MPG</h4>
+                  <h4>MPG on Highway</h4>
                 </div>
                 <div id="chart-mpg2"></div>
               </div>
@@ -109,16 +109,16 @@
             <div class="row">
               <div class="col-4">
                 <div class="d-flex justify-content-center">
-                  <h4>Car length</h4>
+                  <h4>Car Length</h4>
                 </div>
                 <div id="chart-dim2"></div>
               </div>
-              <div class="col-4">
+             <!-- <div class="col-4">
                 <div class="d-flex justify-content-center">
                   <h4>Car width</h4>
                 </div>
                 <div id="chart-dim3"></div>
-              </div>
+              </div> -->
               <div class="col-4">
                 <div class="d-flex justify-content-center">
                   <h4>Car height</h4>
@@ -126,7 +126,6 @@
                 <div id="chart-dim4"></div>
               </div>
             </div>
-            <hr>
             <div class="row">
               <div class="col-4">
                 <div class="d-flex justify-content-center">
@@ -134,6 +133,7 @@
                 </div>
                 <div id="chart-dim1"></div>
               </div>
+           <!-- <hr>
               <div class="col-4">
                 <div class="d-flex justify-content-center">
                   <h4>Curb weight</h4>
@@ -141,7 +141,7 @@
                 <div id="chart-dim5"></div>
               </div>
             </div>
-          </div>
+          </div>-->
           <!-- Engine -->
           <div class="tab-pane fade" id="list-engine" role="tabpanel" aria-labelledby="list-engine-list">
             <div class="d-flex justify-content-end mt-2 mb-5">
