@@ -42,15 +42,15 @@ function writeMpgCharts(data) {
 function writeDimensionCharts(data) {
     document.getElementById("chart-dim1").innerHTML = "";
     document.getElementById("chart-dim2").innerHTML = "";
-    document.getElementById("chart-dim3").innerHTML = "";
+    //document.getElementById("chart-dim3").innerHTML = "";
     document.getElementById("chart-dim4").innerHTML = "";
-    document.getElementById("chart-dim5").innerHTML = "";
+    //document.getElementById("chart-dim5").innerHTML = "";
     renderDimensionChart(data);
 }
 function writeEngineCharts(data) {
     document.getElementById("chart-eng1").innerHTML = "";
-    document.getElementById("chart-eng2").innerHTML = "";
-    document.getElementById("chart-eng3").innerHTML = "";
+    //document.getElementById("chart-eng2").innerHTML = "";
+    //document.getElementById("chart-eng3").innerHTML = "";
     document.getElementById("chart-eng4").innerHTML = "";
     renderEngineChart(data);
 }
